@@ -1,0 +1,97 @@
+table {border-collapse:collapse;border-spacing:0}
+li{list-style-type:none}
+body {margin: 0 0 0 0;font-family:"맑은 고딕", "Malgun Gothic"}
+a {text-decoration: none}
+a:focus {outline:none}
+img {border:0px solid white}
+
+.boardWrap {width:980px;margin:0 auto}
+.boardArticle {width:980px;margin:0 auto}
+.clear {clear:both}
+
+/*서브페이지 공통*/
+.sub_wrap {width:100%;margin:0 auto}
+.sub_container {width:980px;margin:0 auto}
+.sub_top {width:980px;height:60px;margin:30px 0 0 0;border-bottom:1px solid #D5D5D5}
+.sub_top_title {float:left;width:700px;height:45px;padding:0 0 15px 0;font-size:35px;font-weight:bold;color:black}
+.sub_top_route {float:left;width:280px;height:15px;padding:40px 0 0 0;line-height:13px;font-size:12px;text-align:right;color:gray}
+.sub_middle {width:980px;margin:20px 0 300px 100px}
+
+
+/* 글목록(자료실포함) */
+#boardList {width:980px;height:900px;margin:30px 0 0 0}
+.board_wrap {width:980px;margin:0 auto}
+#boardList table {width:980px}
+
+#boardList th {padding:5px 0;border-top:2px solid #666;border-bottom:1px solid #666}
+#boardList td {padding:8px 0;border-bottom:1px solid #666}
+
+#boardList .no {width:100px;text-align:center}
+#boardList .title {width:500px}
+#boardList .author {width:140px;text-align:center}
+#boardList .date {width:140px;text-align:center}
+#boardList .hit {width:100px;text-align:center}
+
+#boardList .btnSet {margin:0 0 0 150px;text-align:right}
+.bd_button {width:80px;height:30px;line-height:30px;margin:20px 0 0 750px;background-color:#0054FF;color:white;text-align:center;cursor:pointer}
+.search_btn {width:40px;height:28px;line-height:30px;background-color:#0054FF;border:1px solid #0054FF;color:white;text-align:center;cursor:pointer}
+.searchBox {width:332px;height:28px;margin:30px 0 10px 652px}
+.searchBox02 {float:left;width:70px;height:28px}
+.searchBox03 {float:left;width:218px;height:28px}
+.searchBox04 {float:left;width:40px;height:28px;line-height:28px;text-align:center}
+.select_box {height:28px;border:1px solid #CFCFCF}
+.input_box {width:210px;height:26px;border:1px solid #CFCFCF;line-height:28px;text-align:center}
+.paging {width:500px;margin:0 0 100px 380px;list-style-type:none}
+.paging_num {width:300px;height:30px;line-height:30px;text-align:center}
+.page_start {float:left;width:45px;height:30px;margin:0 2px 0 0;border:1px solid #D5D5D5}
+.page_current {float:left;width:30px;height:30px;margin:0 2px 0 0;border:1px solid #0054FF}
+.page {float:left;width:30px;height:30px;margin:0 2px 0 0;border:1px solid #D5D5D5}
+.page_end {float:left;width:30px;height:30px;border:1px solid #D5D5D5}
+
+
+/* 글읽기(자료실포함) */
+.title01 {float:left;width:100px;height:30px;line-height:30px;margin:0 0 0 100px;border-top:3px solid #D5D5D5;font-weight:bold;font-size:15px;text-align:left;background-color:#FAF4C0}
+.title02 {float:left;width:500px;height:30px;line-height:30px;border-top:3px solid #D5D5D5;font-size:15px;text-align:left;background-color:#FFFFE4}
+.member_id01 {float:left;width:100px;height:30px;line-height:30px;margin:0 0 0 100px;border-top:1px solid #D5D5D5;font-weight:bold;font-size:15px;text-align:left;background-color:#FAF4C0}
+.member_id02 {float:left;width:500px;height:30px;line-height:30px;border-top:1px solid #D5D5D5;font-size:15px;text-align:left;background-color:#FFFFFB}
+.date01 {float:left;width:100px;height:30px;line-height:30px;margin:0 0 0 100px;border-top:1px solid #D5D5D5;border-bottom:1px solid #D5D5D5;font-weight:bold;font-size:15px;text-align:left;background-color:#FAF4C0}
+.date02 {float:left;width:500px;height:30px;line-height:30px;border-top:1px solid #D5D5D5;border-bottom:1px solid #D5D5D5;font-size:15px;text-align:left;background-color:#FFFFFB}
+.file01 {float:left;width:100px;height:30px;line-height:30px;margin:0 0 0 100px;border-bottom:1px solid #D5D5D5;font-weight:bold;font-size:15px;text-align:left;background-color:#FAF4C0}
+.file02 {float:left;width:500px;height:30px;line-height:30px;border-bottom:1px solid #D5D5D5;font-size:15px;text-align:left;background-color:#FFFFFB}
+.content {width:603px;font-size:15px;margin:0 0 0 100px;padding:30px 0 30px 0;border-bottom:3px solid #D5D5D5;text-align:left}
+.btnSet {width:603px;margin:15px 0 0 510px}
+.btn {float:left;width:60px;height:30px;line-height:30px;margin:0 5px 0 0;font-size:15px;color:white;text-align:center;border:1px solid #0054FF;background-color:#0054FF}
+
+
+/* 글쓰기(자료실포함) */
+.write_id01 {float:left;width:100px;height:30px;line-height:30px;margin:0 0 0 100px;border-top:3px solid #D5D5D5;font-weight:bold;font-size:15px;text-align:left;background-color:#FAF4C0}
+.write_id02 {float:left;width:500px;height:30px;line-height:30px;border-top:3px solid #D5D5D5;font-size:15px;text-align:left;background-color:#FFFFFB}
+.write_pw01 {float:left;width:100px;height:30px;line-height:30px;margin:0 0 0 100px;border-top:1px solid #D5D5D5;font-weight:bold;font-size:15px;text-align:left;background-color:#FAF4C0}
+.write_pw02 {float:left;width:500px;height:30px;line-height:30px;border-top:1px solid #D5D5D5;font-size:15px;text-align:left;background-color:#FFFFFB}
+.write_file01 {float:left;width:100px;height:30px;line-height:30px;margin:0 0 0 100px;border-top:1px solid #D5D5D5;font-weight:bold;font-size:15px;text-align:left;background-color:#FAF4C0}
+.write_file02 {float:left;width:500px;height:30px;line-height:30px;border-top:1px solid #D5D5D5;font-size:15px;text-align:left;background-color:#FFFFFB}
+.write_title01 {float:left;width:100px;height:30px;line-height:30px;margin:0 0 0 100px;border-top:1px solid #D5D5D5;border-bottom:1px solid #D5D5D5;font-weight:bold;font-size:15px;text-align:left;background-color:#FAF4C0}
+.write_title02 {float:left;width:500px;height:30px;line-height:30px;border-top:1px solid #D5D5D5;border-bottom:1px solid #D5D5D5;font-size:15px;text-align:left;background-color:#FFFFFB}
+.write_content {width:603px;font-size:15px;margin:0 0 0 100px;padding:3px 0 3px 0;border-bottom:3px solid #D5D5D5;text-align:left}
+.write_id {width:150px;height:20px}
+.write_pw {width:150px;height:20px}
+.upload_file {width:400px;height:20px}
+.write_title {width:400px;height:20px}
+.write_text_box {min-width:600px;min-height:400px;max-width:600px;max-height:500px}
+.write_submit {width:60px;height:30px;font-size:15px;color:white;border:1px solid #0054FF;background-color:#0054FF;cursor:pointer}
+.file_upload_btn {width:70px;height:23px;line-height:23px;cursor:pointer}
+
+
+/* 댓글 view */
+.co_comment_view {float:left;width:33px;height:20px;line-height:20px;margin:30px 0 10px 100px;font-weight:bold;font-size:16px;cursor: pointer}
+.point {float:left;width:20px;height:20px;margin:30px 0 10px 0;cursor: pointer}
+.co_wrap {width:600px;margin:5px 0 5px 100px;border-top:1px dotted #D5D5D5}
+.co_id_view {width:90px;height:20px;line-height:20px;margin:10px 0 0 0px;font-weight:bold;font-size:15px}
+.co_content_view {width:600px;margin:5px 0 10px 15px;font-size:15px}
+
+
+/* 댓글작성 */
+.comment_id {float:left;width:90px;height:60px;line-height:60px;margin:30px 0 0 100px;font-size:15px;color:black}
+.co_write_wrap, .co_wrap {display:none}
+.co_content {float:left;max-width:410px;max-height:60px;min-width:420px;min-height:60px;margin:30px 0 0 0}
+.co_button {float:left;width:85px;height:63px;line-height:63px;margin:30px 0 0 3px;font-size:17px;text-align:center;border:1px solid #BDBDBD;background-color:#BDBDBD;cursor:pointer}
